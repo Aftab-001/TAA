@@ -63,15 +63,17 @@ button:hover { transform:scale(1.05); }
 /* ----- Mobile Header Responsive Fix ----- */
 @media (max-width: 768px) {
   header {
-    flex-direction: column;
-    align-items: center;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
     text-align: center;
     height: auto;
     padding: 10px;
   }
   #designer, #timer {
     position: static !important;
-    margin: 5px 0;
+    margin: 8px 0;
     text-align: center;
   }
   header h1 {
